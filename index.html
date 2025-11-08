@@ -53,7 +53,7 @@
                     <div class="col-12 col-md-8 col-lg-6">
                         <div class="card shadow-sm p-3 timeline-card">
                             <h5 class="mb-3">Nossa linha do tempo</h5>
-                            <p class="small text-muted">Toque em um ponto para ver o momento.</p>
+                            <p class="small text-muted">Clica em um pra ver a lembrança, e a partir de hoje adiciona tudo qe você achar importante pra nós.</p>
 
                             <div class="timeline d-flex align-items-center justify-content-between px-2" id="timeline">
                                 <!-- pontos serão renderizados via JS a partir de localStorage -->
@@ -90,33 +90,6 @@
                 </div>
             </div>
         </div>
-                <!-- QR / share modal -->
-                <div class="modal fade" id="qrModal" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Compartilhar este site</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                            </div>
-                            <div class="modal-body text-center">
-                                <p id="qrWarning" class="small text-warning d-none">Observação: este link é local (file://) e pode não ser acessível por outras pessoas. Considere publicar em GitHub Pages ou em um servidor.</p>
-                                <div class="mb-2">
-                                    <input type="text" id="shareUrl" class="form-control text-center" readonly />
-                                </div>
-                                <div class="mb-3">
-                                    <button class="btn btn-outline-secondary btn-sm" id="copyLinkBtn">Copiar link</button>
-                                </div>
-                                <div id="qrContainer">
-                                    <img id="qrImage" alt="QR code" style="max-width:100%;height:auto;border-radius:8px;" />
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <a id="downloadQr" class="btn btn-primary" download="qrcode.png">Baixar QR</a>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- Modal editar momento (reutilizável) -->
                 <div class="modal fade" id="editMomentModal" tabindex="-1" aria-hidden="true">
                     <div class="modal-dialog">
@@ -153,7 +126,7 @@
                                 <div class="col-12 col-md-8 col-lg-6">
                                         <div class="card shadow-sm p-3 timeline-card">
                                                 <h5 class="mb-3">Mural de fotos</h5>
-                                                <p class="small text-muted">Adicione fotos que ficam salvas no navegador — toque para ver ou excluir.</p>
+                                                <p class="small text-muted">Coloca as fotos que você quiser aqui amorzinho, vão ficar salvas pra vc ver sempre que entrar.</p>
 
                                                 <div id="photoGallery" class="d-flex flex-wrap gap-2"></div>
 
