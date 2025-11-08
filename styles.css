@@ -30,6 +30,14 @@ body{
   font-weight:700;
   box-shadow:0 6px 18px rgba(255,107,129,0.18);
 }
+/* when using an image inside the profile circle */
+.profile-circle .profile-photo{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
+}
 .notes li{margin-bottom:0.5rem}
 .bg-page::before{
   content:"";
